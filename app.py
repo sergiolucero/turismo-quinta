@@ -7,7 +7,7 @@ centro = [-33.0, -71.6] # valpo!
 
 def data(ciudad):
     #URL = 'http://quant.cl/places/Vi%C3%B1a%20del%20mar_mariscos'
-    if ciudad = 'Valparaiso':
+    if ciudad == 'Valparaiso':
         df = pd.read_csv('Valpo.csv')
     else:
         URL = 'http://quant.cl/places/%s_mariscos' %ciudad
