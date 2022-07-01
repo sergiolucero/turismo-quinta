@@ -10,7 +10,7 @@ def data(ciudad):
     #URL = 'http://quant.cl/places/%s_mariscos' %ciudad
     df = pd.read_html(URL)[0]
     #df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + centro,    columns=['lat', 'lon'])
-return df
+    return df
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
