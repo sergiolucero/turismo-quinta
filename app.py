@@ -15,7 +15,7 @@ def data(ciudad):
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
-            get_position='[lon, lat]',
+            get_position='[lng, lat]',
             radius=200, elevation_scale=4,
             elevation_range=[0, 1000],
             pickable=True, extruded=True,
@@ -35,7 +35,7 @@ st.pydeck_chart(pdk.Deck(
          pdk.Layer(
              'ScatterplotLayer',
              data=df,
-             get_position='[lon, lat]',
+             get_position='[lng, lat]',
              get_color='[200, 30, 0, 160]',
              get_radius=200,
          ),
