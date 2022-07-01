@@ -6,9 +6,10 @@ import streamlit as st
 centro = [-33.0, -71.6] # valpo!
 
 def data(ciudad):
-    URL = 'http://quant.cl/places/Vi%C3%B1a%20del%20mar_mariscos'
+    #URL = 'http://quant.cl/places/Vi%C3%B1a%20del%20mar_mariscos'
     #URL = 'http://quant.cl/places/%s_mariscos' %ciudad
-    df = pd.read_html(URL)[0]
+    #df = pd.read_html(URL)[0]
+    df = pd.read_csv('Valpo.csv')
     #df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + centro,    columns=['lat', 'lon'])
     return df
 
@@ -40,3 +41,5 @@ st.pydeck_chart(pdk.Deck(
          ),
      ],
  ))
+
+st.dataframe(df)
