@@ -21,14 +21,13 @@ def Layer(layer_type, df):
          )
 ##############################################
 df = data()
+st.write('N=%d' %len(df))
 
 st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
      initial_view_state=pdk.ViewState(
-         latitude=centro[0],
-         longitude=centro[1],
-         zoom=11,
-         pitch=50,
+         latitude=centro[0],longitude=centro[1],
+         zoom=11,pitch=50,
      ),
      layers=[
          Layer('HexagonLayer',df),
