@@ -5,9 +5,12 @@ import streamlit as st
 
 centro = [-33.0, -71.6] # valpo!
 
-df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + centro,
-    columns=['lat', 'lon'])
+def data(ciudad):
+    URL = 'http://quant.cl/places/Vi%C3%B1a%20del%20mar_mariscos'
+    #URL = 'http://quant.cl/places/%s_mariscos' %ciudad
+    df = pd.read_html(URL)[0]
+    #df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + centro,    columns=['lat', 'lon'])
+return df
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
@@ -16,6 +19,8 @@ def Layer(layer_type, df):
             elevation_range=[0, 1000],
             pickable=True, extruded=True,
          )
+##############################################
+df = data()
 
 st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
