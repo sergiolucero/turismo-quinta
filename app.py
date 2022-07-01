@@ -11,6 +11,7 @@ def data(ciudad):
     #df = pd.read_html(URL)[0]
     df = pd.read_csv('Valpo.csv')
     #df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + centro,    columns=['lat', 'lon'])
+    df = df[['lat','lon']]  # removes latin-1 problems!
     return df
 
 def Layer(layer_type, df):
