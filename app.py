@@ -7,10 +7,12 @@ centro = [-33.0, -71.6] # valpo!
 
 def data(ciudad):
     #URL = 'http://quant.cl/places/Vi%C3%B1a%20del%20mar_mariscos'
-    #URL = 'http://quant.cl/places/%s_mariscos' %ciudad
-    #df = pd.read_html(URL)[0]
-    df = pd.read_csv('Valpo.csv')
-    #df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + centro,    columns=['lat', 'lon'])
+    if ciudad = 'Valparaiso':
+        df = pd.read_csv('Valpo.csv')
+    else:
+        URL = 'http://quant.cl/places/%s_mariscos' %ciudad
+        df = pd.read_html(URL)[0]
+    
     df = df[['lat','lng']]  # removes latin-1 problems!
     return df
 
@@ -23,6 +25,7 @@ def Layer(layer_type, df):
          )
 ##############################################
 df = data('Valpo')
+df2 = data('Concón')
 st.write('N=%d' %len(df))
 
 st.pydeck_chart(pdk.Deck(
@@ -33,6 +36,7 @@ st.pydeck_chart(pdk.Deck(
      ),
      layers=[
          Layer('HexagonLayer',df),
+         Layer('HexagonLayer',df2),
          pdk.Layer(
              'ScatterplotLayer',
              data=df,
