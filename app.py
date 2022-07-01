@@ -20,7 +20,7 @@ def Layer(layer_type, df):
             pickable=True, extruded=True,
          )
 ##############################################
-df = data()
+df = data('Valpo')
 st.write('N=%d' %len(df))
 
 st.pydeck_chart(pdk.Deck(
