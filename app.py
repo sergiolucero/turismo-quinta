@@ -25,7 +25,7 @@ def Layer(layer_type, df):
          )
 ##############################################
 df = data('Valpo')
-df2 = data('Concón')
+#df2 = data('Concón')
 st.write('N=%d' %len(df))
 
 st.pydeck_chart(pdk.Deck(
@@ -36,7 +36,7 @@ st.pydeck_chart(pdk.Deck(
      ),
      layers=[
          Layer('HexagonLayer',df),
-         Layer('HexagonLayer',df2),
+         #Layer('HexagonLayer',df2),
          pdk.Layer(
              'ScatterplotLayer',
              data=df,
