@@ -11,6 +11,13 @@ tooltip = {
 }
 
 colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
+import sqlite3
+conn = sqlite3.connect('turismo.db')
+sql = lambda q: pd.read_sql(q, conn)
+##############################################
+def datos_turisticos():
+  df = sql('SELECT * FROM datos')
+  return df
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
