@@ -19,7 +19,7 @@ for city, cdf in df.groupby('ciudad'):
     layers.append(Layer('HexagonLayer',df))   # write class +=
     layers.append(TextLayer(df, colors[city]))
     layers.append(ColumnLayer(df))
-st.dataframe(df.groupby('ciudad').size().T)
+st.dataframe(df.groupby('ciudad').size().reset_index().T)
                   
 #st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(LayeredDeck(layers))
