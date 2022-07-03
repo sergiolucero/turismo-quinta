@@ -42,5 +42,5 @@ def HexTextLayers(df):
     for city, cdf in df.groupby('ciudad'):
         layers.append(Layer('HexagonLayer',df))   # write class +=
         layers.append(TextLayer(df, colors[city]))
-        layers.append(ColumnLayer(df))
+        #layers.append(ColumnLayer(df))
     return layers
