@@ -30,7 +30,7 @@ def TextLayer(df):
 df = sql('SELECT * FROM datos')
 st.write('N=%d' %len(df))
 
-layers = [Layer('HexagonLayer',cdf)  for city, cdf in df.groupby('ciudad'),
+layers = [Layer('HexagonLayer',df),  #for city, cdf in df.groupby('ciudad'),
           TextLayer(df)],   # was IconLayer
 st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(pdk.Deck(
