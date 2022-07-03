@@ -14,10 +14,8 @@ df = sql('SELECT * FROM datos')
 #st.write('N=%d' %len(df))
 
 colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-layers = HexTextLay()
-                  
-#st.write('nLayers=%d' %len(layers))
-st.pydeck_chart(LayeredDeck(layers))
+
+st.pydeck_chart(LayeredDeck(HexTextLayers(df)))
 st.dataframe(df.groupby('ciudad').size())
 
 st.dataframe(df)
