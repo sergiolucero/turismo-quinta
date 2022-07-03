@@ -10,7 +10,6 @@ conn = sqlite3.connect('turismo.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
 st.header('Elementos Turísticos Quinta Región')
-centro = [-33.0, -71.6] # valpo!
 df = sql('SELECT * FROM datos')
 #st.write('N=%d' %len(df))
 
