@@ -3,12 +3,12 @@ from pydeck.types import String
 
 def LayeredDeck(layers):
     return pdk.Deck(
-       map_style='mapbox://styles/mapbox/light-v9',
-       initial_view_state=pdk.ViewState(
-           latitude=centro[0],longitude=centro[1],
-           zoom=12,pitch=50,     controller=True,
-       ),
-       layers=layers, tooltip=True)
+        map_style='mapbox://styles/mapbox/light-v9',
+        initial_view_state=pdk.ViewState(
+            latitude=centro[0],longitude=centro[1],
+            zoom=12,pitch=50,     controller=True,
+        ),
+        layers=layers, tooltip=True)
   
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
