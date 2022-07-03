@@ -18,7 +18,7 @@ for city, cdf in df.groupby('ciudad'):
     st.write(city,len(cdf))
     layers.append(Layer('HexagonLayer',df))   # write class +=
     layers.append(TextLayer(df))
-    layers.append(ColumnLayer(df)
+    layers.append(ColumnLayer(df))
                   
 st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(pdk.Deck(
