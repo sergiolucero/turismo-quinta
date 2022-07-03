@@ -7,10 +7,10 @@ def Layer(layer_type, df):
             radius=200, elevation_scale=4, elevation_range=[0, 100],
             pickable=True, extruded=True, controller=True)
 
-def TextLayer(df):
+def TextLayer(df, color=[255, 0, 128]):
     return pdk.Layer("TextLayer", data=df,
     pickable=True, get_position='[lng, lat]',   # or "coordinates",
-    get_text="name",    get_size=16,get_color=[0, 255, 128],
+    get_text="name",    get_size=16,get_color=color,
     get_angle=0, get_text_anchor=String("middle"),
     get_alignment_baseline=String("center"))
   
