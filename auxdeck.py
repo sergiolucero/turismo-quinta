@@ -29,15 +29,15 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
         #map_style='mapbox://styles/mapbox/mapbox-terrain-rgb',
         initial_view_state=pdk.ViewState(
             latitude=centro[0],longitude=centro[1],
-            zoom=12,pitch=100,     controller=True,
-        ),
-        layers=layers, tooltip=tooltip)
+            zoom=12,pitch=100,
+        ), 
+        layers=layers, controller=True, tooltip=tooltip)
   
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
             get_position='[lng, lat]',
             radius=50, elevation_scale=10, elevation_range=[0, 100],
-            pickable=True, extruded=True, controller=True)
+            pickable=True, extruded=True)
 
 def TextLayer(df, color=[255, 0, 128]):
     return pdk.Layer("TextLayer", data=df,
