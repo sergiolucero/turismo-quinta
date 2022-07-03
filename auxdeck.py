@@ -33,9 +33,9 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
         ), 
         layers=layers, controller=True, tooltip=tooltip)
   
-def Layer(layer_type, df):
+def Layer(layer_type, df, color):
   return pdk.Layer(layer_type, data=df,
-            get_position='[lng, lat]',
+            get_position='[lng, lat]', get_fill_color=color,
             radius=50, elevation_scale=10, elevation_range=[0, 100],
             pickable=True, extruded=True)
 
@@ -55,7 +55,7 @@ def ColumnLayer(df):
 def HexTextLayers(df):
     layers = []
     for city, cdf in df.groupby('ciudad'):
-        layers.append(Layer('HexagonLayer',df))   # write class +=
+        layers.append(Layer('ScatterplotLayer',df, colors[city]))   # write class +=
         layers.append(TextLayer(df, colors[city]))
         #layers.append(ColumnLayer(df))
     return layers
