@@ -1,6 +1,8 @@
 import pydeck as pdk
 from pydeck.types import String
 import streamlit as st
+import sqlite3, pandas as pd
+
 st.set_page_config(page_title="Turismo Quinta Región", 
                    page_icon="⬇", layout="wide")
 #st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
@@ -11,7 +13,6 @@ tooltip = {
 }
 
 colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-import sqlite3
 conn = sqlite3.connect('turismo.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
