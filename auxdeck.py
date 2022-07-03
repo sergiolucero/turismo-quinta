@@ -31,7 +31,8 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
             latitude=centro[0],longitude=centro[1],
             zoom=12,pitch=100,
         ), 
-        layers=layers, controller=True, tooltip=tooltip)
+        layers=layers, tooltip=tooltip)   # controller=True???
+  
 # possible layer types:  Arc, Bitmap, Column, GeoJson, GridCell,Icon, Line, Path,
 # PointCloud, Polygon, Scatterplot, SolidPolygon, Text, 
 # see: https://deckgl.readthedocs.io/en/latest/#gallery
