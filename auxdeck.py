@@ -40,7 +40,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 def Layer(layer_type, df, color):
   return pdk.Layer(layer_type, data=df,
             get_position='[lng, lat]', get_fill_color=color,
-            radius=50, elevation_scale=10, elevation_range=[0, 100],
+            radius=150, elevation_scale=10, elevation_range=[0, 100],
             pickable=True, extruded=True)
 
 def TextLayer(df, color=[255, 0, 128]):
