@@ -13,7 +13,7 @@ centro = [-33.0, -71.6] # valpo!
 df = sql('SELECT * FROM datos')
 st.write('N=%d' %len(df))
 
-colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso, Chile': [255, 128, 0],}
+colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
 layers = []
 for city, cdf in df.groupby('ciudad'):
     st.write(city,len(cdf))
