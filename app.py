@@ -19,7 +19,7 @@ sql = lambda q: pd.read_sql(q, conn)
 df = sql('SELECT * FROM datos')
 st.write('N=%d' %len(df))
 
-layers = [Layer('IconLayer',cdf)  for city, cdf in df.groupby('ciudad') ],   # was HexagonLayer
+layers = [Layer('HexagonLayer',cdf)  for city, cdf in df.groupby('ciudad') ],   # was IconLayer
 st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
