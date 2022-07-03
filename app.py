@@ -18,7 +18,7 @@ def data(ciudad):
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
-            get_position='[lat, lng]',
+            get_position='[lng, lat]',
             radius=200, elevation_scale=4,
             elevation_range=[0, 1000],
             pickable=True, extruded=True,
