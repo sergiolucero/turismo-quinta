@@ -18,14 +18,16 @@ def data(ciudad):
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
-            get_position='[lng, lat]',
+            get_position='[lat, lng]',
             radius=200, elevation_scale=4,
             elevation_range=[0, 1000],
             pickable=True, extruded=True,
          )
 ##############################################
-df = data('Valpo')
-#df2 = data('Concón')
+import sqlite3
+conn = sqlite3.connect('turismo.db')
+sql = lambda q: pd.read_sql(q, conn)
+df = sql('SELECT * FROM datos')
 st.write('N=%d' %len(df))
 
 st.pydeck_chart(pdk.Deck(
@@ -34,17 +36,7 @@ st.pydeck_chart(pdk.Deck(
          latitude=centro[0],longitude=centro[1],
          zoom=11,pitch=50,
      ),
-     layers=[
-         Layer('HexagonLayer',df),
-         #Layer('HexagonLayer',df2),
-         pdk.Layer(
-             'ScatterplotLayer',
-             data=df,
-             get_position='[lng, lat]',
-             get_color='[200, 30, 0, 160]',
-             get_radius=200,
-         ),
-     ],
+     layers=[Layer('HexagonLayer',df)     ],
  ))
 
 st.dataframe(df)
