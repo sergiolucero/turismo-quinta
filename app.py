@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 
 import streamlit as st
-st.set_page_config(page_title="Turismo Quinta Región", page_icon="⬇", layout="wide")
+st.set_page_config(page_title="Turismo Quinta Región", 
+                   background_color='black', page_icon="⬇", layout="wide")
 from auxdeck import *
 
 import sqlite3
