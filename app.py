@@ -3,7 +3,7 @@ import pandas as pd
 
 import streamlit as st
 st.set_page_config(page_title="Turismo Quinta Región", 
-                   background_color='black', page_icon="⬇", layout="wide")
+                   page_icon="⬇", layout="wide")
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 from auxdeck import *
