@@ -13,8 +13,13 @@ centro = [-33.0, -71.6] # valpo!
 df = sql('SELECT * FROM datos')
 st.write('N=%d' %len(df))
 
-layers = [Layer('HexagonLayer',df),  #for city, cdf in df.groupby('ciudad'),
-          TextLayer(df),ColumnLayer(df),],   # was IconLayer
+layers = []
+for city, cdf in df.groupby('ciudad'):
+    st.write(city,len(cdf))
+    layers.append(Layer('HexagonLayer',df))   # write class +=
+    layers.append(TextLayer(df))
+    layers.append(ColumnLayer(df)
+                  
 st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
