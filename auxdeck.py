@@ -1,5 +1,9 @@
 import pydeck as pdk
 from pydeck.types import String
+import streamlit as st
+st.set_page_config(page_title="Turismo Quinta Región", 
+                   page_icon="⬇", layout="wide")
+#st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 tooltip = {
     "html": "<b>{name}</b> <br> rating <b>{rating}</b>/5.0 <br>Horario/Teléfono/PáginaWeb",
