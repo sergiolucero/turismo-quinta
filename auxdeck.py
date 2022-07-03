@@ -3,8 +3,10 @@ from pydeck.types import String
 
 tooltip = {
     "html": "<b>{name}</b> rating <b>{rating}</b>/5.0",
-    "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
+    "style": {"background": "steelblue", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
 }
+
+colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
