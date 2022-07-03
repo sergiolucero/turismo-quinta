@@ -40,8 +40,8 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 def Layer(layer_type, df, color):
   return pdk.Layer(layer_type, data=df,
                    get_position='[lng, lat]', get_fill_color=color,
-                   radius_scale=6, adius_min_pixels=1,
-                   radius_max_pixels=100,
+                   radius_scale=6, radius_min_pixels=1,
+                   radius_max_pixels=100, get_radius=10,
                    #radius=150, elevation_scale=10, elevation_range=[0, 100],
                    pickable=True, extruded=True)
 
