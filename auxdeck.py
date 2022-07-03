@@ -2,7 +2,7 @@ import pydeck as pdk
 from pydeck.types import String
 
 tooltip = {
-    "html": "<b>{name}</b> rating <b>{rating}</b>/5.0",
+    "html": "<b>{name}</b> <br> rating <b>{rating}</b>/5.0 <br>Horario/Teléfono/PáginaWeb",
     "style": {"background": "steelblue", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
 }
 
@@ -10,7 +10,8 @@ colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
-        map_style='mapbox://styles/mapbox/satellite-streets-v11',
+        #map_style='mapbox://styles/mapbox/satellite-streets-v11',
+        map_style='mapbox://styles/mapbox/light-v1',
         #explore: https://www.mapbox.com/gallery/
         #map_style=pdk.map_styles.SATELLITE,
         #map_style='mapbox://styles/mapbox/mapbox-terrain-rgb',
