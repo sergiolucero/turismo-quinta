@@ -8,7 +8,7 @@ tooltip = {
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
-        #map_style='mapbox://styles/mapbox/light-v9',
+        #map_style='mapbox://styles/mapbox/satellite-streets-v11',
         #explore: https://www.mapbox.com/gallery/
         map_style=pdk.map_styles.SATELLITE,
         #map_style='mapbox://styles/mapbox/mapbox-terrain-rgb',
