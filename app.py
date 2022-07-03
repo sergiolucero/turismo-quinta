@@ -20,10 +20,10 @@ st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
      initial_view_state=pdk.ViewState(
          latitude=centro[0],longitude=centro[1],
-         zoom=8,pitch=50,
+         zoom=8,pitch=50,     controller=True,
      ),
      layers=layers,
-     controller=True,
+
  ))
 
 st.dataframe(df)
