@@ -9,6 +9,7 @@ import sqlite3
 conn = sqlite3.connect('turismo.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
+st.header('Elementos Turísticos Quinta Región')
 centro = [-33.0, -71.6] # valpo!
 df = sql('SELECT * FROM datos')
 #st.write('N=%d' %len(df))
@@ -19,14 +20,14 @@ for city, cdf in df.groupby('ciudad'):
     layers.append(Layer('HexagonLayer',df))   # write class +=
     layers.append(TextLayer(df, colors[city]))
     layers.append(ColumnLayer(df))
-st.dataframe(df.groupby('ciudad').size())
+st.dataframe(df.groupby('ciudad').size().T)
                   
 #st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(pdk.Deck(
      map_style='mapbox://styles/mapbox/light-v9',
      initial_view_state=pdk.ViewState(
          latitude=centro[0],longitude=centro[1],
-         zoom=8,pitch=50,     controller=True,
+         zoom=12,pitch=50,     controller=True,
      ),
      layers=layers,
 
