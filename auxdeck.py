@@ -1,12 +1,12 @@
 import pydeck as pdk
 from pydeck.types import String
 
-def LayeredDeck(layers):
+def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
         map_style='mapbox://styles/mapbox/light-v9',
         initial_view_state=pdk.ViewState(
             latitude=centro[0],longitude=centro[1],
-            zoom=12,pitch=50,     controller=True,
+            zoom=12,pitch=100,     controller=True,
         ),
         layers=layers, tooltip=True)
   
