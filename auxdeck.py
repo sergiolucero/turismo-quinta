@@ -33,8 +33,14 @@ def TextLayer(df, color=[255, 0, 128]):
   
 def ColumnLayer(df):
     return pdk.Layer("ColumnLayer", data=df,
-    get_position=["lng", "lat"], 
-    get_elevation="rating", elevation_scale=100,    radius=50,
+    get_position=["lng", "lat"], get_elevation="rating", elevation_scale=100,    radius=50,
     get_fill_color=["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],
     pickable=True,   auto_highlight=True)
  
+def HexTextLayers(df):
+    layers = []
+    for city, cdf in df.groupby('ciudad'):
+        layers.append(Layer('HexagonLayer',df))   # write class +=
+        layers.append(TextLayer(df, colors[city]))
+        layers.append(ColumnLayer(df))
+    return layers
