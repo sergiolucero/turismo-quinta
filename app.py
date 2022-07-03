@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import pydeck as pdk
+from pydeck.types import String
+
 import streamlit as st
 import sqlite3
 conn = sqlite3.connect('turismo.db')
