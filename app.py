@@ -1,11 +1,5 @@
 import numpy as np
 import pandas as pd
-
-import streamlit as st
-st.set_page_config(page_title="Turismo Quinta Región", 
-                   page_icon="⬇", layout="wide")
-st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
-
 from auxdeck import *
 
 import sqlite3
