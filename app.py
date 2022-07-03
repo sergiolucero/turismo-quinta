@@ -22,6 +22,6 @@ for city, cdf in df.groupby('ciudad'):
                   
 #st.write('nLayers=%d' %len(layers))
 st.pydeck_chart(LayeredDeck(layers))
-st.dataframe(df.groupby('ciudad').size()T)
+st.dataframe(df.groupby('ciudad').size())
 
 st.dataframe(df)
