@@ -32,7 +32,10 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
             zoom=12,pitch=100,
         ), 
         layers=layers, controller=True, tooltip=tooltip)
-  
+# possible layer types:  Arc, Bitmap, Column, GeoJson, GridCell,Icon, Line, Path,
+# PointCloud, Polygon, Scatterplot, SolidPolygon, Text, 
+# see: https://deckgl.readthedocs.io/en/latest/#gallery
+
 def Layer(layer_type, df, color):
   return pdk.Layer(layer_type, data=df,
             get_position='[lng, lat]', get_fill_color=color,
