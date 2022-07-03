@@ -22,7 +22,8 @@ st.pydeck_chart(pdk.Deck(
          latitude=centro[0],longitude=centro[1],
          zoom=8,pitch=50,
      ),
-     layers=layers
+     layers=layers,
+     controller=True,
  ))
 
 st.dataframe(df)
