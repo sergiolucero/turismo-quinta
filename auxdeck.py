@@ -14,8 +14,8 @@ colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
-        #map_style='mapbox://styles/mapbox/satellite-streets-v11',
-        map_style='mapbox://styles/mapbox/light-v1',
+        map_style='mapbox://styles/mapbox/satellite-streets-v11',
+        #map_style='mapbox://styles/mapbox/light-v1',
         #explore: https://www.mapbox.com/gallery/
         #map_style=pdk.map_styles.SATELLITE,
         #map_style='mapbox://styles/mapbox/mapbox-terrain-rgb',
