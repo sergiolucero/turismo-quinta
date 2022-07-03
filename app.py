@@ -9,13 +9,8 @@ import sqlite3
 conn = sqlite3.connect('turismo.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
-st.header('Elementos Turísticos Quinta Región')
 df = sql('SELECT * FROM datos')
-#st.write('N=%d' %len(df))
-
-colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-
+st.header('Elementos Turísticos Quinta Región')
 st.pydeck_chart(LayeredDeck(HexTextLayers(df)))
 st.dataframe(df.groupby('ciudad').size())
-
 st.dataframe(df)
