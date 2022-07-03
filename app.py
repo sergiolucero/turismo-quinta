@@ -4,6 +4,9 @@ import pydeck as pdk
 import streamlit as st
 
 centro = [-33.0, -71.6] # valpo!
+st.set_page_config(
+    page_title="Turismo Quinta Región", page_icon="⬇", layout="wide"
+)
 
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
