@@ -16,7 +16,7 @@ df = sql('SELECT * FROM datos')
 colors={'Concon': [0, 255, 128], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
 layers = []
 for city, cdf in df.groupby('ciudad'):
-     layers.append(Layer('HexagonLayer',df))   # write class +=
+    layers.append(Layer('HexagonLayer',df))   # write class +=
     layers.append(TextLayer(df, colors[city]))
     layers.append(ColumnLayer(df))
 st.dataframe(df.groupby('ciudad').size())
