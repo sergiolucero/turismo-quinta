@@ -24,7 +24,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 def Layer(layer_type, df):
   return pdk.Layer(layer_type, data=df,
             get_position='[lng, lat]',
-            radius=200, elevation_scale=10, elevation_range=[0, 100],
+            radius=50, elevation_scale=10, elevation_range=[0, 100],
             pickable=True, extruded=True, controller=True)
 
 def TextLayer(df, color=[255, 0, 128]):
@@ -37,7 +37,7 @@ def TextLayer(df, color=[255, 0, 128]):
 def ColumnLayer(df):
     return pdk.Layer("ColumnLayer", data=df,
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=100,    radius=50,
-    get_fill_color=["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],
+    get_fill_color=["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
     pickable=True,   auto_highlight=True)
  
 def HexTextLayers(df):
