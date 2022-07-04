@@ -62,10 +62,8 @@ def ColumnLayer(df):
     get_fill_color=[255,0,0], #["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
     pickable=True,   auto_highlight=True)
 
-import json
 def GeoLayer(filename):
     
-    #js = json.load(open(filename).read())  
     js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'   # it works!
     return pdk.Layer('GeoJsonLayer', js,
                     opacity=0.8, stroked=False,
