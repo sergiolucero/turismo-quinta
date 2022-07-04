@@ -9,7 +9,8 @@ st.header('Estadísticas')
 pt = data.pivot_table(index='ciudad', columns='rubro', 
                       values='rating', aggfunc='mean').fillna(0)
 fig = plt.figure(figsize=(5,3))
-sns.heatmap(pt, annot=True, fmt='.2f', annot_kws={'size':18})
+sns.heatmap(pt, annot=True, fmt='.2f', cmap='RdYlGn',
+            annot_kws={'size':16, 'weight': 'bold'})
 st.pyplot(fig)
 #st.dataframe(pt)
 
