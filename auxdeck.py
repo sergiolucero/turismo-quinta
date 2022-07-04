@@ -60,7 +60,12 @@ def ColumnLayer(df):
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=100,    radius=50,
     get_fill_color=["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
     pickable=True,   auto_highlight=True)
- 
+
+import json
+def GeoLayer(filename):
+    js = json.load(open(filename).read())    
+    return pdk.Layer('GeoJsonLayer', js)
+  
 def HexTextLayers(df):
     layers = []
     for city, cdf in df.groupby('ciudad'):
