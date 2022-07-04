@@ -59,7 +59,7 @@ def TextLayer(df, color=[255, 0, 128]):
 def ColumnLayer(df):
     return pdk.Layer("ColumnLayer", data=df,
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=100,    radius=50,
-    get_fill_color=["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
+    get_fill_color=[255,0,0], #["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
     pickable=True,   auto_highlight=True)
 
 import json
