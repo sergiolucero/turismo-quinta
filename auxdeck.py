@@ -65,10 +65,10 @@ import json
 def GeoLayer(filename):
     
     #js = json.load(open(filename).read())  
-    js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'
+    js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'   # it works!
     return pdk.Layer('GeoJsonLayer', js,
                     opacity=0.8, stroked=False,
-                    filled=True,extruded=True,wireframe=True,
+                    filled=False,extruded=True,wireframe=True,
                     #get_elevation="properties.valuePerSqm / 20",
                     #get_fill_color="[255, 255, properties.growth * 255]",
                     get_line_color=[255, 255, 255],)
