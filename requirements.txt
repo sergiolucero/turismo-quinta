@@ -3,4 +3,5 @@ lxml
 numpy
 pandas
 pydeck
+seaborn
 streamlit
