@@ -1,4 +1,5 @@
 from auxdeck import *
+import matplotlib.pyplot as plt
 
 data = datos_turisticos()
 st.header('Elementos Turísticos Quinta Región')
