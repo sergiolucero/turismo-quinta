@@ -13,7 +13,7 @@ tooltip = {
 }
 
 colors={'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-conn = sqlite3.connect('turismo.db')
+conn = sqlite3.connect('turismo2.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
 def datos_turisticos():
@@ -79,6 +79,6 @@ def HexTextLayers(df):
     for city, cdf in df.groupby('ciudad'):
         #layers.append(Layer('ScatterplotLayer',df, colors[city]))   # write class +=
         
-        layers.append(TextLayer(df, colors[city]))
+        layers.append(TextLayer(df, colors.get(city, [20, 20, 255])))
         #layers.append(ColumnLayer(df))
     return layers
