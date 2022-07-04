@@ -1,0 +1,298 @@
+name,lat,lng,rating,opening_hours,direccion,ciudad,rubro
+Museo de Historia Natural de Valparaíso,-33.046478,-71.621171,4.8,{'open_now': False},Condell 1546,"Valparaiso,Chile",museo
+Museo Baburizza,-33.040463,-71.628784,4.8,{'open_now': False},,"Valparaiso,Chile",museo
+Museo Naval Y Maritimo,-33.031976,-71.63118,4.7,{'open_now': False},Veintiuno de Mayo 45,"Valparaiso,Chile",museo
+National Museum of Fine Arts,-33.435347,-70.643551,4.6,{'open_now': False},"José Miguel de La Barra 650, Santiago","Valparaiso,Chile",museo
+Casa de Isla Negra,-33.442945,-71.683836,4.6,{'open_now': False},"Poeta Neruda s/n, Isla Negra, El Quisco","Valparaiso,Chile",museo
+Baburizza Palace,-33.040448,-71.62876,4.6,{'open_now': False},Monte Alegre 132,"Valparaiso,Chile",museo
+Museo Mirador Lukas,-33.041208,-71.626785,4.5,,P.º Gervasoni 448,"Valparaiso,Chile",museo
+Museo de Arqueología e Historia Francisco Fonck,-33.019815,-71.549915,4.5,{'open_now': False},"4 Nte. 784, Viña del Mar","Valparaiso,Chile",museo
+La Sebastiana Museo de Pablo Neruda,-33.053871,-71.622612,4.4,{'open_now': False},Ricardo de Ferrari 692,"Valparaiso,Chile",museo
+Historical Museum of Placilla,-33.110058,-71.572033,4.3,{'open_now': False},Calle del Tranque 571,"Valparaiso,Chile",museo
+Museo a Cielo Abierto,-33.048319,-71.622331,4.2,{'open_now': True},Labruyere 284,"Valparaiso,Chile",museo
+Museo Municipal de Bellas Artes de Valparaíso,-33.046178,-71.62131,4.2,{'open_now': False},Condell 1525,"Valparaiso,Chile",museo
+Lord Cochrane's Museum,-33.038602,-71.63037,4.1,,Merlet 195,"Valparaiso,Chile",museo
+Distribuidora Mares del Sur,-33.051252,-71.608444,5.0,,Van Buren 2654,"Valparaiso,Chile",pescados
+Aires Porteños,-33.02235,-71.633721,4.6,{'open_now': False},Altamirano 1595,"Valparaiso,Chile",pescados
+Tres Peces Valparaíso,-33.042338,-71.626491,4.5,{'open_now': False},Subida Concepción cerro Concepción 261,"Valparaiso,Chile",pescados
+Mar de Amores,-33.042702,-71.627761,4.3,{'open_now': False},Almte. Montt 336,"Valparaiso,Chile",pescados
+Playa Caleta Portales,-33.031367,-71.590557,4.3,{'open_now': True},Av. España 2351,"Valparaiso,Chile",pescados
+PortoViejo,-33.035491,-71.630464,4.3,{'open_now': True},Cochrane 90,"Valparaiso,Chile",pescados
+MARISQUERIA paseo del mar,-33.042928,-71.624595,4.2,{'open_now': False},"Pl. Aníbal Pinto 1167, Valparaíso, 2340000","Valparaiso,Chile",pescados
+Frigorifico Victor Mancilla Y Compania Limitada,-33.035232,-71.588648,4.2,{'open_now': False},Philippi 195,"Valparaiso,Chile",pescados
+El Rincon de Pancho,-33.045143,-71.607755,4.2,{'open_now': False},Uruguay 125,"Valparaiso,Chile",pescados
+Caleta Portales Restaurant,-33.032395,-71.591169,4.2,{'open_now': False},"Acceso A Caleta Portales, Juan de Saavedra 2171, local 1, Valparaíso","Valparaiso,Chile",pescados
+Restaurant Donde Carlitos,-33.037655,-71.630047,3.8,{'open_now': False},Serrano 489,"Valparaiso,Chile",pescados
+Restaurant Proa al Mar,-33.032114,-71.591147,3.8,{'open_now': False},"Avda. España, Caleta Portales s/n","Valparaiso,Chile",pescados
+El Rey Del Pescado Frito,-33.031816,-71.590874,3.7,{'open_now': True},Av. España 2351,"Valparaiso,Chile",pescados
+MERCADITO MAR & TIERRA,-33.041936,-71.630585,3.3,,Monte Alegre 397,"Valparaiso,Chile",pescados
+Restaurant Buenos Aires,-33.036826,-71.629001,3.1,{'open_now': False},Errázuriz 382,"Valparaiso,Chile",pescados
+Restaurant Doña Tatito,-33.032289,-71.590674,2.5,{'open_now': True},"Acceso A Caleta Portales, Valparaíso, 2340000","Valparaiso,Chile",pescados
+Tienda Congelados,-33.03492,-71.588633,0.0,{'open_now': False},Philippi 179,"Valparaiso,Chile",pescados
+Salmón & Cava,-33.035124,-71.629916,0.0,,"Blanco 36, Loc 2","Valparaiso,Chile",pescados
+Pasaje Talcahuano pescado fresco,-33.045322,-71.606921,0.0,,Talcahuano 2824-2844,"Valparaiso,Chile",pescados
+Pescadería Los Gatos,-33.032022,-71.590499,0.0,{'open_now': False},"Caleta Portales Avenida España, sin número Valparaíso, Valparaíso","Valparaiso,Chile",pescados
+Ilo Mapu Valparaíso,-33.043104,-71.627699,4.8,{'open_now': False},"Almte. Montt 385, Valparaíso, 2340000","Valparaiso,Chile",restaurant
+Cerro Alegre,-33.043086,-71.62807,4.7,{'open_now': True},Urriola 678,"Valparaiso,Chile",restaurant
+Barrio Huerto,-33.03445,-71.63019,4.7,{'open_now': False},"Blanco 38, Valparaíso, 2362101","Valparaiso,Chile",restaurant
+Nazca Restaurante Peruano,-33.042719,-71.624757,4.6,{'open_now': True},Esmeralda 1146,"Valparaiso,Chile",restaurant
+La Caperucita y el Lobo,-33.048257,-71.62019,4.6,{'open_now': False},Ferrari 75. Cerro Florida,"Valparaiso,Chile",restaurant
+Café Del Pintor,-33.042971,-71.628187,4.6,{'open_now': True},Urriola 652,"Valparaiso,Chile",restaurant
+Cocina Puerto,-33.043621,-71.628117,4.6,{'open_now': False},Almte. Montt 455,"Valparaiso,Chile",restaurant
+Portofino Restaurant,-33.031302,-71.5878,4.6,{'open_now': False},Bellamar 301,"Valparaiso,Chile",restaurant
+Casa Dumplings,-33.048122,-71.622672,4.6,{'open_now': False},Héctor Calvo 308,"Valparaiso,Chile",restaurant
+Restaurante Brecons,-33.041801,-71.628968,4.6,{'open_now': False},Urriola 518,"Valparaiso,Chile",restaurant
+Restaurant La Concepción,-33.04188,-71.626477,4.6,{'open_now': False},Papudo 541,"Valparaiso,Chile",restaurant
+Allegretto Restaurant,-33.042135,-71.627232,4.5,{'open_now': True},Pilcomayo 529,"Valparaiso,Chile",restaurant
+Tres Peces Valparaíso,-33.042338,-71.626491,4.5,{'open_now': False},Subida Concepción cerro Concepción 261,"Valparaiso,Chile",restaurant
+IL PAPARAZZO RISTORANTE & WINEBAR,-33.04121,-71.627151,4.5,{'open_now': False},"Papudo 424, Valparaíso, 2370686","Valparaiso,Chile",restaurant
+Cafe Turri,-33.041579,-71.626485,4.4,{'open_now': False},Templeman 147,"Valparaiso,Chile",restaurant
+El Internado,-33.043844,-71.627168,4.4,{'open_now': False},P.º Dimalow 167,"Valparaiso,Chile",restaurant
+Restaurant El Pimentón,-33.045903,-71.624288,4.4,{'open_now': False},Av. Ecuador 27,"Valparaiso,Chile",restaurant
+Maralegre,-33.040837,-71.63055,4.4,{'open_now': True},Calle Higuera 133 Cerro Alegre,"Valparaiso,Chile",restaurant
+Café Vinilo,-33.043468,-71.628194,4.3,{'open_now': True},Almte. Montt 448,"Valparaiso,Chile",restaurant
+Caleta Portales Restaurant,-33.032395,-71.591169,4.2,{'open_now': False},"Acceso A Caleta Portales, Juan de Saavedra 2171, local 1, Valparaíso","Valparaiso,Chile",restaurant
+AYCA La Flora Hotel Boutique,-33.041968,-71.625499,5.0,,Subida Concepción 35,"Valparaiso,Chile",hotel
+Bo Hotel & Terraza,-33.044233,-71.63022,5.0,,Almte. Montt 677,"Valparaiso,Chile",hotel
+Casa Magnolia - Val Paradou,-33.041026,-71.630266,5.0,,"Higuera, Valparaíso, 2340000","Valparaiso,Chile",hotel
+Somerscales Hotel Boutique,-33.043242,-71.630091,5.0,{'open_now': True},"San Enrique 446, Valparaíso, 2370832","Valparaiso,Chile",hotel
+Voga Exclusive Guesthouse,-33.043469,-71.63054,4.8,,"Galos 435, Valparaíso, 2370830","Valparaiso,Chile",hotel
+Augusta Apart Hotel,-33.043847,-71.629306,4.8,{'open_now': True},San Enrique 577,"Valparaiso,Chile",hotel
+Casa Galos Hotel & Lofts,-33.043897,-71.630131,4.8,,"Templeman 893, Valparaíso, Cerro Alegre 2370951","Valparaiso,Chile",hotel
+Casa Puente Hotel Boutique,-33.042775,-71.631146,4.7,{'open_now': True},San Agustín 552,"Valparaiso,Chile",hotel
+Hotel Palacio Astoreca,-33.040733,-71.62898,4.6,{'open_now': False},"Montealegre, Cerro Alegre 149","Valparaiso,Chile",hotel
+La Galería B&B,-33.041993,-71.628215,4.6,{'open_now': True},"Pasaje, Templeman","Valparaiso,Chile",hotel
+Nomada Eco Hostel,-33.045082,-71.617683,4.5,{'open_now': True},Brasil 1822,"Valparaiso,Chile",hotel
+Hotel Boutique 17,-33.041942,-71.626424,4.5,{'open_now': True},"Papudo 557, Valparaíso, 2372715","Valparaiso,Chile",hotel
+WineBox Valparaiso,-33.050877,-71.618472,4.5,{'open_now': True},Baquedano 763,"Valparaiso,Chile",hotel
+Fauna Hotel & Restaurante,-33.043694,-71.62721,4.4,{'open_now': True},P.º Dimalow 166,"Valparaiso,Chile",hotel
+Verso Hotel,-33.053226,-71.621232,4.4,{'open_now': True},Mena 665,"Valparaiso,Chile",hotel
+Hotel Brighton,-33.042648,-71.625267,4.3,{'open_now': True},"P.º Atkinson 151- 153, Valparaíso, 2340000","Valparaiso,Chile",hotel
+Hotel Diego de Almagro Valparaiso Hotel,-33.04364,-71.62001,4.3,,"Molina 76, Valparaíso, 2362682","Valparaiso,Chile",hotel
+Hotel Gervasoni,-33.041112,-71.626971,4.2,,"Paseo Gervasoni Nº1 - Cerro Concepción, Valparaíso 2340000","Valparaiso,Chile",hotel
+ibis Valparaiso,-33.038275,-71.626403,4.1,,"Errázuriz 811, Valparaíso, 2340000","Valparaiso,Chile",hotel
+Casa Vander hotel boutique,-33.043839,-71.626855,3.7,,P.º Dimalow 135,"Valparaiso,Chile",hotel
+Casa Maroto,-32.921218,-71.517403,5.0,,"Maroto 635, Concón, 2510000",Concon,museo
+Historical and Archaeological Museum of Concon,-32.920271,-71.516765,4.3,{'open_now': False},"Sta. Laura 470, Concón",Concon,museo
+"Centro Artístico y Espiritual ""Dharma""",-32.921481,-71.515192,0.0,,"C. 8 375, Concón",Concon,museo
+Palmera Histórica de Concón,-32.921027,-71.50839,0.0,,"23577, Av. Borgoño 25350, Concón, Quintero",Concon,museo
+Homenaje a los marinos y soldados caídos en la batalla de Concón,-32.933858,-71.443042,0.0,,"Ruta 60, Concón",Concon,museo
+El Salmon Boutique del mar - Pescadería y Marisquería,-32.934052,-71.536362,4.8,{'open_now': False},"Avenida Concon Reñaca 122 Santa Maria 150 Concón, Valparaíso",Concon,pescados
+Donde elmarko,-32.934725,-71.524879,4.7,{'open_now': False},"898, El Jardín Ote. 802, Concón",Concon,pescados
+pescaderia El Pelao,-32.937128,-71.524417,4.7,{'open_now': False},"Los Diamantes 600, 698, Concón",Concon,pescados
+Picá Los Canalla,-32.932029,-71.541725,4.6,{'open_now': False},San Pedro manzana E casa 10 higuerilla,Concon,pescados
+El Salmon Restaurant,-32.930838,-71.539949,4.4,{'open_now': False},"A Morales 225a, Concón",Concon,pescados
+Restaurant Punta Del Este,-32.923324,-71.524107,4.4,{'open_now': False},"Av. Borgoño 23120, Concón",Concon,pescados
+Alto Mar by La Gatita,-32.930692,-71.539562,4.3,{'open_now': True},"198, A Morales 100, Concón",Concon,pescados
+Pica De Juan Segura,-32.932048,-71.539637,4.3,{'open_now': True},"Illapel 160, Concón",Concon,pescados
+Pescadería La Picá de Martín,-32.932965,-71.540982,4.2,{'open_now': True},"Las Pimpinelas 400-482, Concón",Concon,pescados
+Restaurant Vista al Mar,-32.929846,-71.539824,4.2,{'open_now': False},"Av. Borgoño 21270, Concón, 2510070",Concon,pescados
+Aquí Jaime,-32.929725,-71.539232,4.2,{'open_now': True},"Av. Borgoño 21303, Concón",Concon,pescados
+La Picá de Martín,-32.932228,-71.541653,4.2,{'open_now': True},"Las Pimpinelas 1205, Concón",Concon,pescados
+Donde Odette La Gatita,-32.932845,-71.540737,4.2,{'open_now': True},"Las Pimpinelas 1285, Concón",Concon,pescados
+Restaurant La Perla del Pacífico,-32.920049,-71.509894,4.1,{'open_now': True},"Av. Borgoño 25190, Concón",Concon,pescados
+Albatros Restaurante,-32.929444,-71.540278,3.9,{'open_now': True},"Av. Borgoño 21295, Concón",Concon,pescados
+Restaurant Calipso,-32.930494,-71.538054,3.9,{'open_now': False},"Av. Borgoño 21455, Concón, 2510000",Concon,pescados
+La Picá del Loro,-32.919813,-71.510503,3.7,{'open_now': False},"Av. Borgoño frente al 25.120, Concón",Concon,pescados
+Restaurante Las Brisas Concon,-32.92026,-71.510883,3.3,{'open_now': True},"Av. Borgoño 25070, Concón",Concon,pescados
+El Pez Gordo,-32.920327,-71.51116,3.3,{'open_now': True},"Av. Borgoño 25030, Concón",Concon,pescados
+Donde Yayo,-32.920216,-71.510382,2.7,{'open_now': True},"Av. Borgoño 25140, Concón",Concon,pescados
+Picá Los Canalla,-32.932029,-71.541725,4.6,{'open_now': False},San Pedro manzana E casa 10 higuerilla,Concon,restaurant
+FARO de los Compadres,-32.931208,-71.538825,4.6,{'open_now': False},"El Prado 2585, Concón",Concon,restaurant
+Empanadas Fritas Las Deliciosas,-32.92116,-71.508121,4.5,{'open_now': True},"Av. Borgoño 25370, Concón, 2510000",Concon,restaurant
+El Club de Pedro y Fabiola,-32.932467,-71.5379,4.5,{'open_now': False},"Costanera 175, Concón",Concon,restaurant
+Te Encantará Restaurant,-32.930323,-71.540863,4.4,{'open_now': False},"Pasaje 131, Higuerilla Alto, Siempre Viva, Concón",Concon,restaurant
+El Salmon Restaurant,-32.930838,-71.539949,4.4,{'open_now': False},"A Morales 225a, Concón",Concon,restaurant
+Nikko Seafood and Sushi,-32.924672,-71.525657,4.4,{'open_now': True},"Av. Borgoño 22902, Concón",Concon,restaurant
+Restaurant Punta Del Este,-32.923324,-71.524107,4.4,{'open_now': False},"Av. Borgoño 23120, Concón",Concon,restaurant
+Alto Mar by La Gatita,-32.930692,-71.539562,4.3,{'open_now': True},"198, A Morales 100, Concón",Concon,restaurant
+Restaurant Los Delfines,-32.931087,-71.539795,4.2,{'open_now': False},"San Pedro 325, Concón",Concon,restaurant
+"NOVELLINO Restaurante, desayunos y hora del té",-32.930635,-71.538317,4.2,{'open_now': True},"Av. Borgoño 21450, Concón, 2510070",Concon,restaurant
+Donde Odette La Gatita,-32.932845,-71.540737,4.2,{'open_now': True},"Las Pimpinelas 1285, Concón",Concon,restaurant
+Aquí Jaime,-32.929725,-71.539232,4.2,{'open_now': True},"Av. Borgoño 21303, Concón",Concon,restaurant
+Restaurant Vista al Mar,-32.929846,-71.539824,4.2,{'open_now': False},"Av. Borgoño 21270, Concón, 2510070",Concon,restaurant
+La Picá de Martín,-32.932228,-71.541653,4.2,{'open_now': True},"Las Pimpinelas 1205, Concón",Concon,restaurant
+Restaurant La Perla del Pacífico,-32.920049,-71.509894,4.1,{'open_now': True},"Av. Borgoño 25190, Concón",Concon,restaurant
+RESTAURANT SANTABRASA DEL MAR,-32.920025,-71.51825,4.1,{'open_now': True},"Sta. Elena 671, Concón",Concon,restaurant
+Restaurante Secreto,-32.920706,-71.51275,4.0,{'open_now': True},"Maroto 1011, Concón",Concon,restaurant
+Los cangrejos - La Boca,-32.920303,-71.512249,3.9,{'open_now': True},"Av. Borgoño 23201-23399, Concón",Concon,restaurant
+Albatros Restaurante,-32.929444,-71.540278,3.9,{'open_now': True},"Av. Borgoño 21295, Concón",Concon,restaurant
+"Las Pimpinelas 1120, Costa de Montemar, Concón",-32.931193,-71.543516,4.9,,"Las Pimpinelas 1120, Costa de Montemar Concón, Valparaíso",Concon,hotel
+Hotel boutique Laura del Mar,-32.919706,-71.516764,4.9,{'open_now': True},"Sta. Laura 481, Concón",Concon,hotel
+Hostal Concón,-32.919675,-71.520603,4.8,,"Labarca 424, Concón, 2510000",Concon,hotel
+Bahía Luz Hostal,-32.918602,-71.520702,4.7,,"Pedro de Valdivia 171, Concón, 2510490",Concon,hotel
+Riomar Apart Hotel,-32.921199,-71.508901,4.7,{'open_now': True},"Maroto 1409, Concón",Concon,hotel
+Hotel Azul Pacifico,-32.931323,-71.535245,4.6,,"las Elenas 71 concon Concón, Valparaíso",Concon,hotel
+Dei Templi Apart Hotel,-32.961852,-71.544845,4.6,{'open_now': True},"Av Edmundo Eluchans 1475, Viña del Mar",Concon,hotel
+Cabañas Aires del Bosque,-32.925552,-71.521354,4.6,{'open_now': False},"Avenida Vergara 413 entre las calle 3 y 4 Concón, Valparaíso",Concon,hotel
+Yemanyá Hostal,-32.921901,-71.514043,4.6,{'open_now': True},"C. 9 439, Concón, 2510000",Concon,hotel
+Apart Hotel Blumenplatz,-32.929717,-71.548576,4.5,{'open_now': True},"Las Pimpinelas 310, Concón, Viña del Mar",Concon,hotel
+Hotel Boutique Casadoca,-32.929931,-71.531574,4.5,,"Av. Borgoño 22090, Concón",Concon,hotel
+Radisson Blu Acqua Hotel & Spa Concon,-32.918932,-71.523533,4.4,,"Av. Borgoño 23333, Concón, 2510000",Concon,hotel
+Casa Motiva,-32.918414,-71.520308,4.4,,"Av. Borgoño 24030, Concón, 2510000",Concon,hotel
+Hotel Bosque de Reñaca,-32.966052,-71.529418,4.4,{'open_now': True},"Dublé Almeyda 80, Viña del Mar",Concon,hotel
+Aparthotel Bahia Bonita,-32.930451,-71.532093,4.4,{'open_now': True},"Avenida, Av. Borgoño 22040, Concón",Concon,hotel
+Apart Hotel Duna del Mar,-32.922577,-71.518535,4.3,{'open_now': True},"Sta. Margarita 660, Concón, 2510670",Concon,hotel
+HOSTAL CLUB HOUSE,-32.921106,-71.516306,4.3,{'open_now': False},"Pedro de Valdivia 514, Concón",Concon,hotel
+Linda Vista Apart Hotel,-32.934719,-71.536734,4.1,,"Sta María 112 & El Prado, Concón",Concon,hotel
+Hostal Palos,-32.920074,-71.520669,4.0,,Concón,Concon,hotel
+Neruda Mar Suites,-32.95782,-71.549365,3.7,{'open_now': True},"Av. Borgoño 16180, Renaca, Concón",Concon,hotel
+Nomade Skate Shop,-33.006932,-71.495315,5.0,,"Sta Julia, Viña del Mar","Vina del Mar, Chile",museo
+Barquito de papel,-33.052672,-71.524005,5.0,{'open_now': True},"Ruta 60, Viña del Mar","Vina del Mar, Chile",museo
+La Oficina,-33.00752,-71.535328,4.7,,Viña del Mar,"Vina del Mar, Chile",museo
+Palacio Ariztía,-33.025907,-71.55664,4.7,,"Álvarez 440, Viña del Mar","Vina del Mar, Chile",museo
+Decorative Arts Museum Rioja Palace,-33.020642,-71.546528,4.7,{'open_now': False},"Quillota 214, Viña del Mar","Vina del Mar, Chile",museo
+Monumento a Alberto Larraguibel y caballo Huaso,-33.006623,-71.551005,4.6,{'open_now': True},"Borde Costero, Viña del Mar","Vina del Mar, Chile",museo
+Museo de Arqueología e Historia Francisco Fonck,-33.019815,-71.549915,4.5,{'open_now': False},"4 Nte. 784, Viña del Mar","Vina del Mar, Chile",museo
+Artequin Museum Vina del Mar,-33.029274,-71.550202,4.5,{'open_now': False},"Alcalde Prieto Nieto Parque, Potrerillos 500, Viña del Mar","Vina del Mar, Chile",museo
+Museo de Teclados,-33.029083,-71.575091,4.4,{'open_now': True},"Hortensias 20, Viña del Mar","Vina del Mar, Chile",museo
+Museo Palacio Vergara,-33.028058,-71.553806,4.3,{'open_now': False},"Errázuriz 563-596 Parque Quinta Vergara, Valparaíso","Vina del Mar, Chile",museo
+Lookout Giordano Bruno,-33.000533,-71.520029,4.3,,"Cono Sur 16, Viña del Mar","Vina del Mar, Chile",museo
+Historical and Archaeological Museum of Concon,-32.920271,-71.516765,4.3,{'open_now': False},"Sta. Laura 470, Concón","Vina del Mar, Chile",museo
+Plaza Dr Luis Sigall,-33.027449,-71.552156,4.2,,"Montaña 712, Viña del Mar","Vina del Mar, Chile",museo
+Mirador Los Andes,-33.043923,-71.552411,3.3,,"Alejandro Navarrete 324, Viña del Mar","Vina del Mar, Chile",museo
+La Roca del león,-32.990802,-71.548749,3.0,,Viña del Mar,"Vina del Mar, Chile",museo
+Viña Corporacion,-33.021675,-71.546088,0.0,,"2 - 1/2 Nte. 1010-1072, Viña del Mar","Vina del Mar, Chile",museo
+Teodoro González,-32.993777,-71.492842,0.0,,"C. Tres 210, Viña del Mar","Vina del Mar, Chile",museo
+Palacio Silva de Balboa,-32.979074,-71.545952,0.0,{'open_now': False},"Av. Borgoño 12945, Valparaíso, Viña del Mar 2520000","Vina del Mar, Chile",museo
+Busto del General San Martín,-33.015029,-71.555467,0.0,,"San Martín 636, Viña del Mar","Vina del Mar, Chile",museo
+Aristotolo,-33.049781,-71.559291,0.0,,"Agua Santa 5, 7, Viña del Mar","Vina del Mar, Chile",museo
+Pescados Y Mariscos Delivery,-33.016201,-71.554184,5.0,,"3 Pte. 563, Viña del Mar","Vina del Mar, Chile",pescados
+PECADO DEL INKA,-33.024763,-71.560158,4.7,{'open_now': True},"Ecuador 280, Viña del Mar","Vina del Mar, Chile",pescados
+El Capitan,-33.024498,-71.545194,4.7,{'open_now': False},"La Marina 1130, Viña del Mar","Vina del Mar, Chile",pescados
+Pecado Del Inka,-33.012071,-71.543954,4.7,{'open_now': True},"12 Nte. 1114, Viña del Mar","Vina del Mar, Chile",pescados
+"Pescadería y Almuerzos ""San Pedro""",-33.010197,-71.506568,4.6,{'open_now': False},"Manuel Guerrero 51, Viña del Mar","Vina del Mar, Chile",pescados
+Cuzco Sabores,-33.018093,-71.558109,4.6,{'open_now': True},"6 Pte. 338, Viña del Mar","Vina del Mar, Chile",pescados
+Ají del Mar,-33.019808,-71.557805,4.5,{'open_now': True},"2 norte, 5 - 1/2 Pte. 130, Viña del Mar","Vina del Mar, Chile",pescados
+La Ostra,-32.971003,-71.544134,4.5,{'open_now': False},"Central 150, Renaca, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurante Pescado Del Ika,-33.012068,-71.543974,4.5,{'open_now': True},"12 Nte. 1112, Viña del Mar","Vina del Mar, Chile",pescados
+Sazón Nazca Viña del Mar,-33.024262,-71.549428,4.4,{'open_now': True},"Arlegui 863, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurante Divino Pecado,-33.019431,-71.559049,4.4,{'open_now': False},"San Martín 180 Esquina 3 norte Viña del Mar, Valparaíso","Vina del Mar, Chile",pescados
+Donde Willy Restaurant,-33.016447,-71.554898,4.3,{'open_now': True},"Luis Borgoño 17, Viña del Mar","Vina del Mar, Chile",pescados
+Tierra de Fuego,-33.014236,-71.55604,4.3,{'open_now': True},"Playa Acapulco, 8 Nte. Nº 65, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurante Y Cevicheria Don Augusto,-33.024823,-71.544995,4.2,{'open_now': False},"Arlegui 1175, Local 36, Viña del Mar","Vina del Mar, Chile",pescados
+HeyFish! Restaurante,-33.010646,-71.546324,4.2,{'open_now': True},"13 Nte. 902, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurante Siete Mares,-32.955723,-71.547043,4.1,{'open_now': False},"Av. Borgoño 17150, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurant D'lamari,-32.955437,-71.547027,4.1,{'open_now': False},"Av. Borgoño 17150, Viña del Mar","Vina del Mar, Chile",pescados
+Cocineria La Consentida,-33.024823,-71.544995,3.8,{'open_now': False},"Arlegui 1175, Viña del Mar","Vina del Mar, Chile",pescados
+Restaurante Los Pomairinos,-32.969341,-71.544959,2.4,{'open_now': False},"Av. Borgoño 14890, Viña del Mar","Vina del Mar, Chile",pescados
+Mi Caleta,-33.012191,-71.540793,0.0,{'open_now': False},"Quillota 1130, Valparaíso, Viña del Mar 2531015","Vina del Mar, Chile",pescados
+Don Emelio Restaurante,-33.016663,-71.555043,4.8,{'open_now': False},"6 Nte. 325, Valparaíso, Viña del Mar 2520000","Vina del Mar, Chile",restaurant
+Sativo Wok & Bowls,-33.016601,-71.554607,4.8,{'open_now': True},"6 Nte. 373, Viña del Mar","Vina del Mar, Chile",restaurant
+Pecado Del Inka,-33.012071,-71.543954,4.7,{'open_now': True},"12 Nte. 1114, Viña del Mar","Vina del Mar, Chile",restaurant
+Don Vito e Zanoni,-33.014607,-71.554116,4.7,{'open_now': True},"8 Nte. 375, Viña del Mar","Vina del Mar, Chile",restaurant
+Otra Cozza Viña del Mar,-33.014632,-71.55394,4.6,{'open_now': True},"8 Nte. 393, Viña del Mar","Vina del Mar, Chile",restaurant
+Cuzco Sabores,-33.018093,-71.558109,4.6,{'open_now': True},"6 Pte. 338, Viña del Mar","Vina del Mar, Chile",restaurant
+Ilo Mapu,-33.016632,-71.556406,4.6,{'open_now': False},"6 Nte. 228, Viña del Mar","Vina del Mar, Chile",restaurant
+El Austriaco,-33.019401,-71.558429,4.5,{'open_now': False},"3 Nte. 105, Viña del Mar","Vina del Mar, Chile",restaurant
+Milamores,-33.020708,-71.55784,4.5,{'open_now': False},"2 Nte. 162, Viña del Mar","Vina del Mar, Chile",restaurant
+Ristorante San Marco,-33.015612,-71.556473,4.5,{'open_now': False},"San Martín 597, Viña del Mar","Vina del Mar, Chile",restaurant
+La Flor de Chile,-33.01504,-71.551219,4.4,{'open_now': True},"8 norte 601, esquina, 1 Pte, Viña del Mar","Vina del Mar, Chile",restaurant
+La Cabaña Restaurante,-33.009503,-71.547383,4.4,{'open_now': True},"1 Oriente, 14 Nte. 1274, Viña del Mar","Vina del Mar, Chile",restaurant
+Restaurante Divino Pecado,-33.019431,-71.559049,4.4,{'open_now': False},"San Martín 180 Esquina 3 norte Viña del Mar, Valparaíso","Vina del Mar, Chile",restaurant
+Nogaró,-33.01895,-71.561612,4.4,{'open_now': True},"Av. Perú 100, Viña del Mar","Vina del Mar, Chile",restaurant
+Castillo del mar,-33.02062,-71.565306,4.4,{'open_now': False},"Av. Marina 50, Viña del Mar","Vina del Mar, Chile",restaurant
+Tierra de Fuego,-33.014236,-71.55604,4.3,{'open_now': True},"Playa Acapulco, 8 Nte. Nº 65, Viña del Mar","Vina del Mar, Chile",restaurant
+La Ciboulette,-33.021145,-71.55722,4.3,{'open_now': False},"5 Pte. 80, Valparaíso, Viña del Mar 2520000","Vina del Mar, Chile",restaurant
+Donde Willy Restaurant,-33.016447,-71.554898,4.3,{'open_now': True},"Luis Borgoño 17, Viña del Mar","Vina del Mar, Chile",restaurant
+Chez Gerald,-33.016403,-71.558449,4.2,{'open_now': False},"Perú 496, Valparaíso, Viña del Mar","Vina del Mar, Chile",restaurant
+La Cuisine,-33.016714,-71.554743,4.1,{'open_now': True},"6 Nte. 357, Viña del Mar","Vina del Mar, Chile",restaurant
+Hotel Macasi,-33.025972,-71.563016,5.0,,"Agua Santa 80, Valparaíso, Viña del Mar 2580316","Vina del Mar, Chile",hotel
+Esencia Hotel Boutique,-33.017626,-71.553672,5.0,,"Cinco Nte. 449, Casa 3, Valparaíso, Viña del Mar 2520165","Vina del Mar, Chile",hotel
+The New York Hotel,-33.029204,-71.564557,4.7,{'open_now': True},"Tongoy 57, C1, Viña del Mar","Vina del Mar, Chile",hotel
+Sheraton Miramar Hotel & Convention Center,-33.021128,-71.568046,4.6,,"Av. Marina 15, Viña del Mar","Vina del Mar, Chile",hotel
+Hotel Torreviña,-33.027635,-71.558393,4.6,,"Traslaviña 421, Viña del Mar","Vina del Mar, Chile",hotel
+Dei Templi Apart Hotel,-32.961852,-71.544845,4.6,{'open_now': True},"Av Edmundo Eluchans 1475, Viña del Mar","Vina del Mar, Chile",hotel
+180 Hotel Boutique,-33.023158,-71.561692,4.6,,"Vista Hermosa 180, Valparaíso, Viña del Mar","Vina del Mar, Chile",hotel
+Best Western Hotel Marina del Rey,-33.024884,-71.559671,4.5,,"Ecuador 299, Valparaíso, Viña del Mar 2571530","Vina del Mar, Chile",hotel
+Hotel Diego de Almagro,-33.02135,-71.557382,4.5,,"1 Nte. 221, Viña del Mar","Vina del Mar, Chile",hotel
+Enjoy del Mar,-33.018566,-71.560857,4.5,,"San Martín 199, Valparaíso, Viña del Mar 2520000","Vina del Mar, Chile",hotel
+Novotel Viña del Mar,-33.017171,-71.549864,4.4,,"6 Nte. 745, Valparaíso, Viña del Mar 2520000","Vina del Mar, Chile",hotel
+Cap Ducal,-33.019417,-71.563573,4.4,,"Av. Marina 51, Viña del Mar","Vina del Mar, Chile",hotel
+Hotel Bosque de Reñaca,-32.966052,-71.529418,4.4,{'open_now': True},"Dublé Almeyda 80, Viña del Mar","Vina del Mar, Chile",hotel
+HOTEL NORTH SOUTH,-33.01827,-71.551009,4.3,{'open_now': True},"5 Nte. 683, Viña del Mar","Vina del Mar, Chile",hotel
+Pullman Vina del Mar San Martín,-33.014567,-71.55581,4.2,,"San Martín 667, Valparaíso, Viña del Mar 2520096","Vina del Mar, Chile",hotel
+Hotel Oceanic,-32.983742,-71.547963,4.2,{'open_now': True},"Av. Borgoño 12925, Viña del Mar","Vina del Mar, Chile",hotel
+Gala Hotel y Centro de Eventos,-33.022862,-71.558642,4.2,,"Arlegui 273, Viña del Mar","Vina del Mar, Chile",hotel
+Magno Hotel,-33.023333,-71.557222,4.1,{'open_now': True},"Arlegui 372, Viña del Mar","Vina del Mar, Chile",hotel
+Hotel 3 Poniente,-33.021411,-71.554997,4.0,{'open_now': True},"3 Pte. 70, Viña del Mar","Vina del Mar, Chile",hotel
+Hotel Montecarlo,-32.97329,-71.543678,3.9,,"Vicuña Mackenna 136, Viña del Mar","Vina del Mar, Chile",hotel
+Casa Museo Escultor JUCA,-33.400523,-71.634393,5.0,{'open_now': False},"Valparaíso CL, Nuevo Camino Costero, Algarrobo, El Quisco 2710000",Algarrobo,museo
+Museo Julio Munizaga,-33.192024,-71.697065,5.0,,"Manuel Rodriguez, Casablanca",Algarrobo,museo
+Mirador Punta De Tralca,-33.430385,-71.69984,4.9,{'open_now': True},El Quisco,Algarrobo,museo
+Playa Mirasol Humedal,-33.320899,-71.651433,4.8,,Algarrobo,Algarrobo,museo
+Sala De Ensayo Algarrobo,-38.927028,-69.224455,4.8,,Cutral Có,Algarrobo,museo
+"Bajada Las Gaviotas, Isla Negra, El Quisco, 5° Region Chile",-33.442253,-71.682656,4.7,{'open_now': False},"Bajada las Gaviotas Bajada las Gaviotas ISLA NEGRA, Valparaíso",Algarrobo,museo
+Museo del Algarrobo,-32.352952,-65.015479,4.6,,Villa de Merlo,Algarrobo,museo
+Algarrobo historico,-30.769986,-64.110202,4.6,,"San Martin, Sarmiento",Algarrobo,museo
+Algarrobo Historico,-31.468772,-64.546166,4.6,{'open_now': True},Los Pinos,Algarrobo,museo
+Casa de Isla Negra,-33.442945,-71.683836,4.6,{'open_now': False},"Poeta Neruda s/n, Isla Negra, El Quisco",Algarrobo,museo
+El Totoral,-33.417927,-71.624423,4.5,,"Unnamed Road, El Quisco",Algarrobo,museo
+Artesanias El Algarrobo,-26.595098,-65.861067,4.5,{'open_now': True},"Ruta Provincial 307, Ampimpa, San Miguel de Tucumán",Algarrobo,museo
+Casa de la Cultura Algarrobo,-33.359341,-71.664148,4.5,{'open_now': False},"Av. Carlos Alessandri 1633, Algarrobo",Algarrobo,museo
+Museo Pablo Neruda,-33.442176,-71.682974,4.4,{'open_now': False},"Pje. Gonzalito, Isla Negra, El Quisco",Algarrobo,museo
+"Museo Vicente Huidobro, Cartagena",-33.554384,-71.599774,4.4,{'open_now': False},"Cmo. Eden del Poeta, Cartagena",Algarrobo,museo
+El Muelle De El Quisco,-33.394542,-71.698172,4.1,,"Costanera Sur 216, El Quisco",Algarrobo,museo
+Algarrobo histórico,-32.68977,-68.579129,4.0,,,Algarrobo,museo
+Beatriz Valdes B,-33.297928,-71.617262,3.5,{'open_now': False},Algarrobo,Algarrobo,museo
+Mirador de rocas El Quisco,-33.401273,-71.671671,0.0,,El Quisco,Algarrobo,museo
+Remote Waters,-33.315369,-71.59696,0.0,,"F-820, Algarrobo",Algarrobo,museo
+casacosta gastronomia123,-33.359983,-71.655651,4.6,{'open_now': False},"v, Algarrobo",Algarrobo,pescados
+Cavafe Restaurant,-33.355769,-71.653021,4.6,{'open_now': False},"Av. Carlos Alessandri #264, Algarrobo, 2710000",Algarrobo,pescados
+PESCADERIA RENACER,-33.371074,-71.671402,4.6,,"Av. Ignacio Carrera Pinto, Algarrobo",Algarrobo,pescados
+Cevicheria Al Paso & Mas,-33.361353,-71.666992,4.6,{'open_now': True},"Av. Carlos Alessandri 1989, Algarrobo",Algarrobo,pescados
+Macerado Algarrobo,-33.365566,-71.673279,4.5,{'open_now': False},"Las Tinajas 2678, Algarrobo",Algarrobo,pescados
+Cava y Brasas,-33.376193,-71.679915,4.4,,"Minas Gerais 1250, Algarrobo",Algarrobo,pescados
+el galeon,-33.371662,-71.667288,4.4,{'open_now': True},Algarrobo,Algarrobo,pescados
+Los Patitos,-33.355779,-71.654053,4.4,{'open_now': False},"Av. Carlos Alessandri 278, Algarrobo, 2710000",Algarrobo,pescados
+Laguna Tinajas Restaurant,-33.356264,-71.656943,4.3,{'open_now': False},"Av. Carlos Alessandri 780, Algarrobo, 2170000",Algarrobo,pescados
+Restaurante Peces Gordos,-33.354326,-71.655642,4.3,{'open_now': True},Algarrobo,Algarrobo,pescados
+CASA DOMINGA ALGARROBO,-33.357984,-71.659018,4.3,{'open_now': False},"Julio Hurtado 1100, Algarrobo",Algarrobo,pescados
+Restaurant Brisas del Mar,-33.342602,-71.648187,4.2,{'open_now': True},"Av. Mirasol S/N, Algarrobo",Algarrobo,pescados
+"PESCADERÍA RENACER, EMPANADAS Y COLACIONES",-33.370897,-71.671712,4.2,{'open_now': True},"El Madroño 730, Algarrobo",Algarrobo,pescados
+Caleta De Algarrobo,-33.363592,-71.672857,4.1,{'open_now': False},"Av. Carlos Alessandri 325, Algarrobo",Algarrobo,pescados
+Cinco Océanos,-33.361297,-71.671199,4.1,{'open_now': True},"Av. Algarrobo 2301, Algarrobo, 2710000",Algarrobo,pescados
+Restaurante Las Tinajas,-33.35769,-71.661174,4.1,{'open_now': True},"Av. Carlos Alessandri 1327, Algarrobo",Algarrobo,pescados
+Restaurante Reina del Mar Algarrobo Comida y sushi,-33.374302,-71.677514,4.0,{'open_now': False},"Av. Ignacio Carrera Pinto 1246, Algarrobo, 2710783",Algarrobo,pescados
+Restaurante Nicofer,-33.372348,-71.666307,3.8,{'open_now': False},"Quebrada los Pescadores, Algarrobo",Algarrobo,pescados
+Donde Matías,-33.371412,-71.667508,3.8,{'open_now': True},"Luz Divina 1273b, Algarrobo",Algarrobo,pescados
+Al Muelle Restaurant,-33.362377,-71.671187,3.5,{'open_now': False},"Av. Carlos Alessandri 2383, Algarrobo",Algarrobo,pescados
+Bar A. Melgares,36.771723,-4.039771,4.9,{'open_now': False},"Calle De, C. Antonio Ruiz Rivas, 31, 29750 Algarrobo",Algarrobo,restaurant
+El Benito,36.774141,-4.039045,4.8,{'open_now': False},"Calle Rodalcuzar, 5, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante El Nido,36.77122,-4.04035,4.8,{'open_now': False},"Av. de Karat, 6, 29750 Algarrobo",Algarrobo,restaurant
+Burguer Rebeca,36.772136,-4.037705,4.7,{'open_now': False},"Carr. Sayalonga, 1, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante D'Picoteo,36.746029,-4.0524,4.6,{'open_now': False},"Av. Torre Ladeada, 5, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante La Barca,36.745539,-4.052338,4.6,{'open_now': False},"Centro Internacional, Bloque 71 Costa, Algarrobo",Algarrobo,restaurant
+M&S Algarrobo,36.773545,-4.039044,4.6,{'open_now': False},"Av. del Arroyuelo, 29750 Algarrobo",Algarrobo,restaurant
+Lounge La ReyMora,36.773405,-4.038464,4.6,{'open_now': False},"C. la Escalerilla, 3, 29750 Algarrobo",Algarrobo,restaurant
+BaoBaB Beach House,36.744951,-4.049549,4.5,{'open_now': False},"Paseo Maritimo Pablo Ruiz Picasso, No 3, Chiringuito nº3, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante Pippo,36.746197,-4.053388,4.5,{'open_now': False},"Edificio Habana, Urbanizacion Pueblo Nuevo, Bajo, 29750 Algarrobo",Algarrobo,restaurant
+Bar De Copas Marboro,36.773401,-4.038856,4.3,{'open_now': False},"Av. del Arroyuelo, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante Asiatico Feng,36.747327,-4.052948,4.3,{'open_now': False},"Urb Rio Algarrobo, Av. de Andalucía, 35 bajo, 29750 Algarrobo",Algarrobo,restaurant
+El Callejon,36.747478,-4.05659,4.2,{'open_now': False},"C. Enrique Gonzalez, 29750 Algarrobo",Algarrobo,restaurant
+Meson Los Lobos,36.754426,-4.052285,4.2,{'open_now': False},"C. los Lobos, 35, 29751 Algarrobo",Algarrobo,restaurant
+Chiringuito Rompeolas,36.746891,-4.055832,4.2,{'open_now': False},"P.º Marítimo, 29750 Algarrobo",Algarrobo,restaurant
+Bar Bellavista,36.771727,-4.037715,4.2,{'open_now': False},"Carr. Sayalonga, 4, 29750 Algarrobo",Algarrobo,restaurant
+Asador Entre Fuegos,36.74738,-4.055807,4.1,{'open_now': False},29751 Algarrobo,Algarrobo,restaurant
+Tizos,36.746719,-4.05265,4.1,{'open_now': False},"Avd. Andalucía, edf Panamá bajo, Urbanizacion Pueblo Nuevo, 29750 Algarrobo",Algarrobo,restaurant
+Restaurante Bravo,36.74699,-4.054879,4.0,,"Urbanización Pueblo Nuevo, Av. de Andalucía, s/n, 29750 Algarrobo-Costa, Málaga",Algarrobo,restaurant
+Restaurante bravo Algarrobo Costa,36.772816,-4.040448,2.8,{'open_now': False},"paseo Maritime og Edif Montevideo 2950, Algarrobo",Algarrobo,restaurant
+Pao Pao Lodge Algarrobo,-33.364777,-71.670555,5.0,,"Camino a Mirasol s/n Algarrobo, Valparaíso",Algarrobo,hotel
+Bed and Breakfast Lezaeta,-33.358773,-71.660769,4.8,{'open_now': True},"Julio Hurtado 1335, Algarrobo",Algarrobo,hotel
+Los Pitigues,-33.362513,-71.650675,4.8,,Algarrobo,Algarrobo,hotel
+Pinares del Canelillo,-33.366,-71.685842,4.8,,"Av. El Canelo 101, Algarrobo",Algarrobo,hotel
+Hostal La Candelaria,-33.358822,-71.659011,4.8,,"Camino a Casa Blanca 325, Algarrobo, 2710000",Algarrobo,hotel
+Cinque Colori,-33.332977,-71.648537,4.7,{'open_now': True},"Cruce G-94-f - San Sebastián - Algarrobo - Mira, Algarrobo",Algarrobo,hotel
+San Alfonso del Mar - Porteria Sur,-33.352038,-71.652615,4.7,,"Camino a, Av. Mirasol 560, Algarrobo",Algarrobo,hotel
+Hotel Boutique Mar de Royal,-33.393828,-71.703565,4.7,{'open_now': True},"Costanera Sur 302, Valparaíso, El Quisco 2700000",Algarrobo,hotel
+Cabañas Marina Zen,-33.371815,-71.637937,4.6,{'open_now': True},Camino Casa Blanca,Algarrobo,hotel
+Cabañas Algarrobo Lodge,-33.370412,-71.673902,4.5,{'open_now': True},"Contulmo 2875, Algarrobo",Algarrobo,hotel
+Residencial Vera,-33.358539,-71.663071,4.5,,"Av. Carlos Alessandri 1521, Algarrobo, 2711420",Algarrobo,hotel
+Winery Boutique Hotel,-33.363982,-71.671668,4.4,,"Valparaíso, Av. Dr. Guillermo Mucke 110, Algarrobo",Algarrobo,hotel
+Cabañas Orimatila,-33.3584,-71.657638,4.4,{'open_now': True},"Cirilo Didier 699, Algarrobo",Algarrobo,hotel
+Playa Las Cadenas,-33.360924,-71.665094,4.4,{'open_now': True},"Av. Carlos Alessandri 1928, Algarrobo",Algarrobo,hotel
+Cabañas Kas Algarrobo,-33.370907,-71.671762,4.4,{'open_now': True},"El Madroño 737, Algarrobo",Algarrobo,hotel
+Brisas de Cantabria,-33.361674,-71.668893,4.4,{'open_now': True},"Av. Carlos Alessandri 2156, Algarrobo",Algarrobo,hotel
+Kai Hotel Boutique,-33.368184,-71.6801,4.3,{'open_now': False},"Av. Sta. Teresita 3399, Algarrobo",Algarrobo,hotel
+Restaurant & Hotel Medio Mundo,-33.35899,-71.663664,4.3,{'open_now': False},"Av. Carlos Alessandri 1579, Algarrobo",Algarrobo,hotel
+Hotel Pacífico de Algarrobo,-33.361528,-71.666414,3.6,,"Av. Carlos Alessandri 1930, Algarrobo",Algarrobo,hotel
