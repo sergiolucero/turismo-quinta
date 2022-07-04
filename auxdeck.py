@@ -63,13 +63,22 @@ def ColumnLayer(df):
 
 import json
 def GeoLayer(filename):
-    js = json.load(open(filename).read())    
-    return pdk.Layer('GeoJsonLayer', js)
-  
+    
+    #js = json.load(open(filename).read())  
+    js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'
+    return pdk.Layer('GeoJsonLayer', js,
+                    opacity=0.8, stroked=False,
+                    filled=True,extruded=True,wireframe=True,
+                    #get_elevation="properties.valuePerSqm / 20",
+                    #get_fill_color="[255, 255, properties.growth * 255]",
+                    get_line_color=[255, 255, 255],)
+
 def HexTextLayers(df):
     layers = []
+    layers.append(GeoLayer('test'))
     for city, cdf in df.groupby('ciudad'):
-        layers.append(Layer('ScatterplotLayer',df, colors[city]))   # write class +=
+        #layers.append(Layer('ScatterplotLayer',df, colors[city]))   # write class +=
+        
         layers.append(TextLayer(df, colors[city]))
         #layers.append(ColumnLayer(df))
     return layers
