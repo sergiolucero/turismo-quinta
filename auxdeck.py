@@ -69,6 +69,7 @@ def GeoLayer(filename):
     return pdk.Layer('GeoJsonLayer', js,
                     opacity=0.8, stroked=False,
                     filled=False,extruded=True,wireframe=True,
+                    get_elevation=5,
                     #get_elevation="properties.valuePerSqm / 20",
                     #get_fill_color="[255, 255, properties.growth * 255]",
                     get_line_color=[255, 255, 255],)
@@ -80,5 +81,5 @@ def HexTextLayers(df):
         layers.append(Layer('ScatterplotLayer',df, colors.get(city, [20, 20, 255])))   # write class +=
         
         layers.append(TextLayer(df, colors.get(city, [20, 20, 255])))
-        #layers.append(ColumnLayer(df))
+        layers.append(ColumnLayer(df))
     return layers
