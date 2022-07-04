@@ -39,7 +39,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 
 def Layer(layer_type, df, color):
   return pdk.Layer(layer_type, data=df,
-                   pickable=True, opacity=0.8, stroked=True, filled=True,
+                   opacity=0.8, stroked=True, filled=True,
                    radius_scale=6, radius_min_pixels=1, radius_max_pixels=100,
                    line_width_min_pixels=1,
                    get_radius="rating", #"exits_radius",
