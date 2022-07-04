@@ -1,6 +1,7 @@
 import pydeck as pdk
 from pydeck.types import String
 import streamlit as st
+import seaborn as sns
 import sqlite3, pandas as pd
 
 st.set_page_config(page_title="Turismo Quinta Región", 
@@ -56,11 +57,10 @@ def TextLayer(df, color=[255, 0, 128]):
     get_angle=0, get_text_anchor=String("middle"),
     get_alignment_baseline=String("center"))
   
-def ColumnLayer(df):
+def ColumnLayer(df, color):
     return pdk.Layer("ColumnLayer", data=df,
-    get_position=["lng", "lat"], get_elevation="rating", elevation_scale=100,    radius=50,
-    get_fill_color=[255,0,0], #["mrt_distance * 10", "mrt_distance", "mrt_distance * 10", 140],   # FIX THIS
-    pickable=True,   auto_highlight=True)
+    get_position=["lng", "lat"], get_elevation="rating", elevation_scale=50,    radius=50,
+    get_fill_color = color,     pickable=True,   auto_highlight=True)
 
 def GeoLayer(filename):
     
@@ -77,8 +77,9 @@ def HexTextLayers(df):
     layers = []
     layers.append(GeoLayer('test'))
     for city, cdf in df.groupby('ciudad'):
-        layers.append(Layer('ScatterplotLayer',df, colors.get(city, [20, 20, 255])))   # write class +=
+        color = colors.get(city, [20, 20, 255])
+        layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
         
-        layers.append(TextLayer(df, colors.get(city, [20, 20, 255])))
-        layers.append(ColumnLayer(df))
+        layers.append(TextLayer(df, color))
+        layers.append(ColumnLayer(df, color))
     return layers
