@@ -18,7 +18,7 @@ conn = sqlite3.connect('turismo2.db')
 ##############################################
 def datos_turisticos():
   #df = sql('SELECT * FROM datos')
-  df = pd.read_csv('turismo.csv')
+  df = pd.read_csv('turismo.csv', encoding='utf-8')
   return df
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
