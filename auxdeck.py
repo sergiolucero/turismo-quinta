@@ -59,6 +59,7 @@ def TextLayer(df, color=[255, 0, 128]):
   
 def ColumnLayer(df, colorKey):
     color = COLOR_KEYS.get(colorKey, [123,0,201])
+    st.write(colorKey,':',color)
     
     return pdk.Layer("ColumnLayer", data=df,
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=50,    radius=50,
