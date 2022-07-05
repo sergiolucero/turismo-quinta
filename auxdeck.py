@@ -3,6 +3,7 @@ from pydeck.types import String
 import streamlit as st
 import seaborn as sns
 import sqlite3, pandas as pd
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Turismo Quinta Región", 
                    page_icon="⬇", layout="wide")
