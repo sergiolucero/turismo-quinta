@@ -2,26 +2,20 @@ import pydeck as pdk
 from pydeck.types import String
 import streamlit as st
 import seaborn as sns
-import sqlite3, pandas as pd
+from util import sql, pd, datos_turisticos
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Turismo Quinta Región", 
                    page_icon="⬇", layout="wide")
 #st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
-
+############################################################################################
 tooltip = {
     "html": "<b>{name}</b> <br> rating <b>{rating}</b>/5.0 <br>Horario/Teléfono/PáginaWeb",
     "style": {"background": "steelblue", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
 }
 
 COLOR_KEYS = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-conn = sqlite3.connect('turismo2.db')
-sql = lambda q: pd.read_sql(q, conn)
-##############################################
-def datos_turisticos():
-  df = sql('SELECT * FROM datos')
-  #df = pd.read_csv('turismo.csv', encoding='utf-8')
-  return df
+############################################################################################
 
 def LayeredDeck(layers, centro = [-33.0, -71.6]):
     return pdk.Deck(
