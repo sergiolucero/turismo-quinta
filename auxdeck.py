@@ -85,7 +85,7 @@ def FullDeck(df, título):
 def MappedLayers(df):
     layers = []
     layers.append(GeoLayer(QUINTA_JSON))
-    layers.append(GeoLayer(CERROS_KML))
+    layers.append(GeoLayer(CERROS_JSON))
     for city, cdf in df.groupby('ciudad'):
         color = COLOR_KEYS.get(city, [200, 20, 255])
         layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
