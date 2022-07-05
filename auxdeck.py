@@ -77,7 +77,7 @@ def HexTextLayers(df):
     layers = []
     layers.append(GeoLayer('test'))
     for city, cdf in df.groupby('ciudad'):
-        color = colors.get(city, [20, 20, 255])
+        color = colors.get(city, [200, 20, 255])
         layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
         
         layers.append(TextLayer(df, color))
