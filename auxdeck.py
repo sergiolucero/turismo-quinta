@@ -41,7 +41,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 
 def Layer(layer_type, df, colorKey):
     CK = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-    if colorkey in CK:
+    if colorKey in CK:
         color = CK[colorKey]
     else:
         color = [123,0,201]
