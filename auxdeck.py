@@ -66,7 +66,7 @@ def ColumnLayer(df, colorKey):
     get_fill_color = color,     pickable=True,   auto_highlight=True)
 ###################
 QUINTA_JSON = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'
-CERROS_JSON = 'https://github.com/sergiolucero/data/raw/master/GEO/cerros_de_valparaiso_2.kml'
+CERROS_JSON = 'https://github.com/sergiolucero/data/raw/master/GEO/cerros_de_valpo.json'
 
 def GeoLayer(url):  
     return pdk.Layer('GeoJsonLayer', url,
