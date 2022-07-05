@@ -70,7 +70,7 @@ def GeoLayer(filename):
                     get_elevation=5,
                     #get_elevation="properties.valuePerSqm / 20",
                     #get_fill_color="[255, 255, properties.growth * 255]",
-                    get_line_color=[0, 255, 0], get_line_width=10
+                    get_line_color=[0, 255, 0], get_line_width=10)
 
 def HexTextLayers(df):
     layers = []
