@@ -39,14 +39,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 # PointCloud, Polygon, Scatterplot, SolidPolygon, Text, 
 # see: https://deckgl.readthedocs.io/en/latest/#gallery
 
-def Layer(layer_type, df, colorKey):
-    CK = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
-    if colorKey in CK:
-        color = CK[colorKey]
-    else:
-        color = [123,0,201]
-    #color = CK.get(colorKey, [123,0,201])
-    
+def Layer(layer_type, df, color):    
     return pdk.Layer(layer_type, data=df,
                    opacity=0.8, stroked=True, filled=True,
                    radius_scale=6, radius_min_pixels=1, radius_max_pixels=100,
@@ -64,7 +57,9 @@ def TextLayer(df, color=[255, 0, 128]):
     get_angle=0, get_text_anchor=String("middle"),
     get_alignment_baseline=String("center"))
   
-def ColumnLayer(df, color):
+def ColumnLayer(df, colorKey):
+    color = COLOR_KEYS.get(colorKey, [123,0,201])
+    
     return pdk.Layer("ColumnLayer", data=df,
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=50,    radius=50,
     get_fill_color = color,     pickable=True,   auto_highlight=True)
