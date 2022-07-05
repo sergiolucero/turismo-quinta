@@ -64,10 +64,12 @@ def ColumnLayer(df, colorKey):
     return pdk.Layer("ColumnLayer", data=df,
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=50,    radius=50,
     get_fill_color = color,     pickable=True,   auto_highlight=True)
+###################
+QUINTA_JSON = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'
+CERROS_JSON = 'https://github.com/sergiolucero/data/raw/master/GEO/cerros_de_valparaiso_2.kml'
 
-def GeoLayer(filename):   
-    js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'   # it works!
-    return pdk.Layer('GeoJsonLayer', js,
+def GeoLayer(url):  
+    return pdk.Layer('GeoJsonLayer', url,
                     opacity=0.8, stroked=False,
                     filled=False,extruded=True,wireframe=True,
                     get_elevation=5,
@@ -77,7 +79,8 @@ def GeoLayer(filename):
 
 def HexTextLayers(df):
     layers = []
-    layers.append(GeoLayer('test'))
+    layers.append(GeoLayer(QUINTA_JSON))
+    layers.append(GeoLayer(CERROS_KML))
     for city, cdf in df.groupby('ciudad'):
         color = COLOR_KEYS.get(city, [200, 20, 255])
         layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
