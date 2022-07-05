@@ -77,7 +77,12 @@ def GeoLayer(url):
                     #get_fill_color="[255, 255, properties.growth * 255]",
                     get_line_color=[0, 255, 0], get_line_width=10)
 
-def HexTextLayers(df):
+def FullDeck(df, título):
+    st.header(título)
+    layers = MappedLayers(df)
+    st.pydeck_chart(LayeredDeck(layers))
+
+def MappedLayers(df):
     layers = []
     layers.append(GeoLayer(QUINTA_JSON))
     layers.append(GeoLayer(CERROS_KML))
@@ -89,7 +94,8 @@ def HexTextLayers(df):
         layers.append(ColumnLayer(df, city))    # makes sense?
     return layers
 
-def Heatmap(data):
+def Heatmap(data, título):
+  st.header(título)
   pt = data.pivot_table(index='ciudad', columns='rubro', 
                       values='rating', aggfunc='mean').fillna(0)
   fig = plt.figure(figsize=(5,3))
