@@ -40,7 +40,7 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
 # see: https://deckgl.readthedocs.io/en/latest/#gallery
 
 def Layer(layer_type, df, colorKey):
-    CK = colors
+    CK = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
     color = CK.get(colorKey, [123,0,201])
     
     return pdk.Layer(layer_type, data=df,
