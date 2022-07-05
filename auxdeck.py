@@ -44,7 +44,7 @@ def Layer(layer_type, df, color):
                    opacity=0.8, stroked=True, filled=True,
                    radius_scale=6, radius_min_pixels=1, radius_max_pixels=100,
                    line_width_min_pixels=1,
-                   get_radius="rating", #"exits_radius",
+                   get_radius="rating", 
                    get_line_color=[0, 0, 0],
                    get_position='[lng, lat]', get_fill_color=color,
                    #radius=150, elevation_scale=10, elevation_range=[0, 100],
@@ -62,8 +62,7 @@ def ColumnLayer(df, color):
     get_position=["lng", "lat"], get_elevation="rating", elevation_scale=50,    radius=50,
     get_fill_color = color,     pickable=True,   auto_highlight=True)
 
-def GeoLayer(filename):
-    
+def GeoLayer(filename):   
     js = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'   # it works!
     return pdk.Layer('GeoJsonLayer', js,
                     opacity=0.8, stroked=False,
@@ -71,7 +70,7 @@ def GeoLayer(filename):
                     get_elevation=5,
                     #get_elevation="properties.valuePerSqm / 20",
                     #get_fill_color="[255, 255, properties.growth * 255]",
-                    get_line_color=[255, 255, 255],)
+                    get_line_color=[0, 255, 0], get_line_width=10
 
 def HexTextLayers(df):
     layers = []
