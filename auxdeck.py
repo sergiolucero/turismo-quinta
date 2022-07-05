@@ -32,16 +32,18 @@ def LayeredDeck(layers, centro = [-33.0, -71.6]):
         #map_style='mapbox://styles/mapbox/mapbox-terrain-rgb',
         initial_view_state=pdk.ViewState(
             latitude=centro[0],longitude=centro[1],
-            zoom=12,pitch=100,
-        ), 
-        layers=layers, tooltip=tooltip)   # controller=True???
+            zoom=12,pitch=100), 
+        layers=layers, tooltip=tooltip)   
   
 # possible layer types:  Arc, Bitmap, Column, GeoJson, GridCell,Icon, Line, Path,
 # PointCloud, Polygon, Scatterplot, SolidPolygon, Text, 
 # see: https://deckgl.readthedocs.io/en/latest/#gallery
 
-def Layer(layer_type, df, color):
-  return pdk.Layer(layer_type, data=df,
+def Layer(layer_type, df, colorKey):
+    CK = colors
+    color = CK.get(colorKey, [123,0,201])
+    
+    return pdk.Layer(layer_type, data=df,
                    opacity=0.8, stroked=True, filled=True,
                    radius_scale=6, radius_min_pixels=1, radius_max_pixels=100,
                    line_width_min_pixels=1,
@@ -81,7 +83,7 @@ def HexTextLayers(df):
         layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
         
         layers.append(TextLayer(df, color))
-        layers.append(ColumnLayer(df, color))
+        layers.append(ColumnLayer(df, city))    # makes sense?
     return layers
 
 def Heatmap(data):
