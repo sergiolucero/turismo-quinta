@@ -53,7 +53,7 @@ def Layer(layer_type, df, color):
 def TextLayer(df, color=[255, 0, 128]):
     return pdk.Layer("TextLayer", data=df,
     pickable=True, get_position='[lng, lat]',   # or "coordinates",
-    get_text="name",    get_size=16,get_color=color,
+    get_text="name",    get_size=16, get_color=color,
     get_angle=0, get_text_anchor=String("middle"),
     get_alignment_baseline=String("center"))
   
@@ -67,15 +67,16 @@ def ColumnLayer(df, colorKey):
 ###################
 QUINTA_JSON = 'https://raw.githubusercontent.com/sergiolucero/turismo-quinta/main/CSV.json'
 CERROS_JSON = 'https://github.com/sergiolucero/data/raw/master/GEO/cerros_de_valpo.json'
-
-def GeoLayer(url):  
+GREEN = [0, 255, 0]; RED = [255, 0, 0]; BLUE=[0, 0, 255]
+###################
+def GeoLayer(url, color):  
     return pdk.Layer('GeoJsonLayer', url,
                     opacity=0.8, stroked=False,
                     filled=False,extruded=True,wireframe=True,
                     get_elevation=5,
                     #get_elevation="properties.valuePerSqm / 20",
                     #get_fill_color="[255, 255, properties.growth * 255]",
-                    get_line_color=[0, 255, 0], get_line_width=10)
+                    get_line_color=color, get_line_width=20)
 
 def FullDeck(df, título):
     st.header(título)
@@ -84,8 +85,8 @@ def FullDeck(df, título):
 
 def MappedLayers(df):
     layers = []
-    layers.append(GeoLayer(QUINTA_JSON))
-    layers.append(GeoLayer(CERROS_JSON))
+    layers.append(GeoLayer(QUINTA_JSON, GREEN))
+    layers.append(GeoLayer(CERROS_JSON, RED))
     for city, cdf in df.groupby('ciudad'):
         color = COLOR_KEYS.get(city, [200, 20, 255])
         layers.append(Layer('ScatterplotLayer', df, color))   # write class +=
