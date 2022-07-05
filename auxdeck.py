@@ -14,7 +14,7 @@ tooltip = {
     "style": {"background": "steelblue", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
 }
 
-COLOR_KEY = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
+COLOR_KEYS = {'Concon': [0, 255, 0], 'San Antonio': [255, 0, 128], 'Valparaiso,Chile': [255, 128, 0],}
 conn = sqlite3.connect('turismo2.db')
 sql = lambda q: pd.read_sql(q, conn)
 ##############################################
