@@ -19,4 +19,6 @@ hoteles con rating >4.2 y precio <$100 la noche).
 
 ### 3. Visualización
 
-Este último paso permite generar visualizaciones estadísticas, mapas y cualquier tipo de representación visual informativa.
+Este último paso permite generar visualizaciones estadísticas, mapas y cualquier tipo de representación visual informativa. 
+Según los requerimientos, podemos incorporar en esta etapa interactividad (reservas, llamados, whatsapp), 
+capacidades de exportación de cruces o capas, y cualquier funcionalidad programable.
