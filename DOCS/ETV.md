@@ -21,4 +21,13 @@ hoteles con rating >4.2 y precio <$100 la noche).
 
 Este último paso permite generar visualizaciones estadísticas, mapas y cualquier tipo de representación visual informativa. 
 Según los requerimientos, podemos incorporar en esta etapa interactividad (reservas, llamados, whatsapp), 
-capacidades de exportación de cruces o capas, y cualquier funcionalidad programable.
+capacidades de exportación de cruces o capas, y cualquier funcionalidad programable. Tecnologías disponibles: Javascript,
+Streamlit, Plot.ly...
+
+## Ejemplos
+
+|Extracción|Transformación|Visualización|Comentarios|
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
