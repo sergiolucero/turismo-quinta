@@ -28,6 +28,6 @@ Streamlit, Plot.ly...
 
 |Extracción|Transformación|Visualización|Comentarios|
 |---|---|---|---|
-|   |   |   |   |
+|Google Places|Agregar página web|(www.streamlit.com)[sitio]|primer ejemplo   |
 |   |   |   |   |
 |   |   |   |   |
